@@ -576,6 +576,10 @@
   :lib/snitch
   {:extra-deps {org.clojars.abhinav/snitch {:mvn/version "0.0.12"}}}
 
+  ;; https://github.com/philoskim/debux
+  ;; A trace-based debugging library for Clojure and ClojureScript.
+  :lib/debux
+  {:extra-deps {philoskim/debux {:mvn/version "0.8.2"}}}
   ;; End of Debug Tools
   ;; ---------------------------------------------------
 
