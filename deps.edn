@@ -581,6 +581,11 @@
   :lib/debux
   {:extra-deps {philoskim/debux {:mvn/version "0.8.2"}}}
   ;; End of Debug Tools
+
+  ;; https://github.com/jpmonettas/flow-storm-debugger
+  ;; A debugger for Clojure and ClojureScript with some unique features.
+  :lib/flowstorm
+  {:extra-deps {com.github.jpmonettas/flow-storm-dbg {:mvn/version "RELEASE"}}}
   ;; ---------------------------------------------------
 
   ;; ---------------------------------------------------
